@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo - Pub-Sub</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section>
+        <aside></aside>
+        <main></main>
+    </section>
+
+    <script type="module" src="main.js"></script>
+
+    <template class="state-template">
+        <div class="container">
+            <h3>State</h3>
+            <p>Total Tasks - <span class="task-count"> - </span></p>
+            <p>Recently added Tasks - <span class="recent-task"> - </span></p>
+        </div>
+    </template>
+
+    <template class="form-template">
+        <div class="container">
+            <form class="todo-form">
+                <h3>Enter the Task</h3>
+                <input type="text">
+                <button class="add-task">Add Task</button>
+                <button type="reset">Clear</button>
+            </form>
+        </div>
+    </template>
+
+    <template class="list-template">
+        <div class="container">
+            <h3>Task List</h3>
+            <div class="list-items"></div>
+        </div>
+    </template>
+
+    <template class="logger-template">
+        <h3>Console Log</h3>
+        <div class="container logger-container">
+            <ul class="logger-items"></ul>
+        </div>
+    </template>
+</body>
+
+</html>

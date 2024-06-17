@@ -1,0 +1,80 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font: 600 12px/1.5 'Fira Code';
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+section aside {
+    background: #88d6c0;
+    width: 100%;
+    padding: 32px;
+}
+section aside p{
+    font-size: 14px;
+}
+section aside p span{
+    font-weight: 700;
+    color: #176f56;
+    font-size: 16px;
+    background: #fff;
+    padding: 1px 8px;
+}
+
+section main {
+    background: #e092b8;
+    width: 100%;
+    padding: 32px;
+}
+
+.container{
+    height: 50%;
+    overflow-y: auto;
+}
+
+button, input{
+    padding: 4px 16px;
+    font: 600 14px/1.5 'Fira Code';
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: #88d6c0 solid 2px;
+}
+input{
+    cursor: initial;
+}
+input:focus{
+    outline: none;
+    border: #08bd8a solid 2px;
+}
+
+h3{
+    font: 600 18px/1.5 'Fira Code';
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.logger-items{
+    list-style: none !important;
+    padding: 4px 8px;
+    margin: 0;
+}
+
+.logger-container{
+    background-color: #000;
+    font-size: 10px;
+    color: #d5fd05;
+    font-weight: 100;
+    padding: 8px 0;
+    box-sizing: border-box;
+}
