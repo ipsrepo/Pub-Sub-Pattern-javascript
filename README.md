@@ -1,5 +1,6 @@
 # Pub-Sub-Pattern-javascript
 
+This is simple pattern for subscribe and publish pattern in JavaScript.
 
 
 Here is the screenshot of application:
@@ -31,4 +32,3 @@ Adding Task
 
 Deleting Task
 ![image](https://github.com/ipsrepo/Pub-Sub-Pattern-javascript/assets/25323187/249f0df7-78a4-4016-8588-14dfa4152f99)
-
